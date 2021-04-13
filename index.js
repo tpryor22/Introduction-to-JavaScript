@@ -17,6 +17,8 @@ Do the following:
 
    HINT: no function required
 */
+let votingAge = 21;
+console.log("true if age is 18 or higher");
 
 
 
@@ -30,7 +32,13 @@ Do the following:
 
    HINT: no function required
 */
+const purple= 23;
+const orange= 45;
 
+if (purple === 23){
+  console.log(23);
+} else if( orange === 45){
+  console.log('Not the number 23');
 
 
 
@@ -45,7 +53,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let myString = parseInt("1999");
+console.log(myString);
 
 
 
@@ -58,10 +67,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    return a *b
   }
-
+console.log(multiply(2,4));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -74,9 +83,11 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
-}
+function dogYears(age){
+    var dogAge = 7*age;
+    console.log('My dog is' + dogAge + "years old in dog years!");
+    }
+    calculateDogAge(4;)
 
 
 
@@ -151,8 +162,9 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(number){
+  
+    
   }
 
 
